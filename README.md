@@ -26,5 +26,4 @@ We learnt how to work in a team (work distribution, knowledge about every member
 
 ## What's next for Prakruti
 We would like to expand our website on an international level, making people all over the world recognise the value of our ancient Indian sciences in terms of how to live life and 
-affordable and home-made remedies for majority of the diseases. We would also like to register as many doctors and pharmacies as possible with our website to help all people all 
-around the world with their problems.
+affordable and home-made remedies for majority of the diseases. We would also like to register as many doctors and pharmacies as possible with our website to help people all around the world with their problems.
