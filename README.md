@@ -1,4 +1,4 @@
-                               PROJECT DESCRIPTION - PRAKRUTI WEBSITE (Based on AYUSH India)
+                            PROJECT DESCRIPTION - PRAKRUTI WEBSITE (Based on AYUSH India)
 
 ## Inspiration
 Our ancient Indian Sciences have become endangered with the modern Sciences developing leaps and bounds in short time.  So, we wish to revive our Indian Sciences to the name and fame of the past.
