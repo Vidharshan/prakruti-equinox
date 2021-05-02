@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="web.css">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Homemade Apple' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Reggae One' rel='stylesheet'>
+    <title>Prakruti-Doctor Signup</title>
+</head>
+<script>
+    function Ayurveda(x) {
+        if (x == 1)
+            document.getElementById('Ayurveda').style.display = 'block';
+        else
+            document.getElementById('Ayurveda').style.display = 'block';
+    }
+    function dummy(d) {
+        if (d == 1) document.getElementById('dummy').style.display = 'block';
+        else document.getElementById('dummy').style.display = 'block';
+    }
+
+</script>
+
+<style>
+    .bg {
+        background-color: #4B290D;
+    }
+
+    p,
+    pre,
+    h1 {
+        font-family: 'Comfortaa';
+        font-weight: 1000;
+        color: #F1F194;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    table,
+    td,
+    tr {
+
+        padding: 5px;
+        border-collapse: collapse;
+        border-radius: 15px;
+        text-align: center;
+        font-family: 'Comfortaa';
+        font-weight: 1000;
+    }
+</style>
+
+<body bgcolor="#54640B" style="font-family: 'Comfortaa';">
+    <img style="width: 1500px; height: 250px; object-fit: cover;"
+        src="https://s3.ap-southeast-1.amazonaws.com/cdn.deccanchronicle.com/sites/default/files/AYURVEDA_Medicines.jpg"
+        alt="ayurvedic medicines">
+        <div style="text-align: center ;">
+            <p style="font-size: 40px; font-family: 'Reggae One';font-weight: 700; color: #F1F194;">&#10024 PRAKRUTI &#10024</p>
+        </div>
+    <h1 class='bg'>Create Your Profile Now!</h1>
+    <table border=3 align=center bgcolor="#B6CA5A" width="40%">
+        <form action="DOCTOR SIGNUP.php" method="post">
+            <tr>
+                <th colspan="2" height="50px" bgcolor="#F1F194" style="color:#54640B;">
+                    <font size=5>Enter your Details</font>
+                </th>
+            </tr>
+            <tr>
+                <td><label for="name">Enter Name</label><br></td>
+                <td><input type="text" required=true id="name" name="name"
+                        style="border-radius: 10px; width: 90%; background-color:#F1F194;"><br></td>
+            </tr>
+            <tr>
+                <td><label for="pwd">Enter Password</label><br></td>
+                <td><input type="password" required=true id="name" name="password"
+                        style="border-radius: 10px; width: 90%; background-color:#F1F194"><br></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Enter contact number</label><br></td>
+                <td><input type="number" id="phone" name="phone" required=true
+                        style="border-radius: 10px; width: 90%; background-color:#F1F194"><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Enter Email ID</label><br></td>
+                <td><input type="text" id="email" name="email" required=true
+                        style="border-radius: 10px; width: 90%; background-color:#F1F194"><br></td>
+            </tr>
+            <tr>
+                <td><label for="address">Enter Clinic Address</label><br></td>
+                <td><textarea name="address" required=true rows="10" cols="30"></textarea><br></td>
+            </tr>
+   
+			<tr>
+			<td><label for="pincode">Enter Pincode</label><br></td>
+			<td><input type="number" id="pincode" name="pincode" required="true" style="border-radius: 10px; width: 90%; background-color:#F1F194"><br></td>
+			</tr>
+			<tr>
+                <td><label for="gender">Enter Gender</label><br></td>
+                <td>
+                    <input type="radio" id="gender" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="gender" name="gender" value="Female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="gender" name="gender" value="Do not want to disclose">
+                    <label for="undefined">Do not want to disclose</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="department">Department</label><br></t>
+                <td>
+                    <input type="radio" id="department" name="department" required value="Ayurveda"
+                        onclick="Ayurveda(1)">Ayurveda<br>
+                    <input type="radio" id="department" name="department" value="Yoga">Yoga<br>
+                    <input type="radio" id="department" name="department" value="Unani">Unani<br>
+                    <input type="radio" id="department" name="department" value="Siddha">Siddha<br>
+                    <input type="radio" id="department" name="department" value="Homeopathy">Homeopathy<br>
+                </td>
+            </tr>
+
+            <tr id="Ayurveda">
+                <td><label for="Ayurveda">Branch</label><br></td>
+                <td id="Ayurveda">
+                    <input type="radio" id="Ayurveda" name="Ayurveda" value="General medicine">General Medicine<br>
+                    <input type="radio" id="branch" name="Ayurveda" value="Pediatrics">Pediatrics<br>
+                    <input type="radio" id="branch" name="Ayurveda" value="Mental illness">Mental Illness<br>
+                    <input type="radio" id="branch" name="Ayurveda" value="ent">ENT<br>
+                    <input type="radio" id="branch" name="Ayurveda" value="dentistry">Dentistry<br>
+                    <input type="radio" id="branch" name="Ayurveda" value="opthalmology">Opthalmology<br>
+                    <input type="radio" id="branch" name="Ayurveda" value="preventive_medicine">Preventive Medicine<br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="qualification">Qualification</label><br></td>
+                <td><input required=true type="text" name="qualification"><br></td>
+            </tr>
+            <tr>
+                <td><label for="proof">Certification Proof</label><br></td>
+                <td><input required=true type="file" name="proof"><br></td>
+            </tr>
+            <tr>
+                <th colspan=2>
+                    <center>
+                        <input
+                            style="font-family: 'Comfortaa'; border-radius: 10px; padding: 10px; background-color:#F1F194"
+                            type="reset">
+                        <input
+                            style="font-family: 'Comfortaa'; border-radius: 10px; padding: 10px; background-color:#F1F194"
+                            type="submit" value="Submit">
+                    </center>
+                </th>
+            </tr>
+        </form>
+    </table>
+    <br><br><br>
+    <div id="dummy">
+
+        <form>
+            <input type="radio" name="department" value="Ayurveda" onclick="dummy(1)">Dummy<br>
+        </form>
+    </div>
+    <div class='bg'>
+        <pre>DESIGNED BY ABC, XYZ, PQR 
+
+        <u>ABOUT</u>: Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Totam, eligendi.
+
+        CONTACT US
+        sample@email.com
+        563475637456
+
+        Chennai, Tamil Nadu</pre>
+    </div>
+</body>
+
+</html>

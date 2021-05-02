@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="web.css">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Homemade Apple' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Reggae One' rel='stylesheet'>
+    <title>APPOINTMENT FORM</title>
+</head>
+<style>
+    .bg {
+        background-color: #4B290D;
+    }
+    p,pre,h1 {
+        font-family: 'Comfortaa';
+        font-weight: 1000;
+        color: #F1F194;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    table, td,tr {
+
+        padding: 5px;
+        border-collapse: collapse;
+        border-radius: 15px;
+        text-align: center;
+        font-family: 'Comfortaa';
+        font-weight: 1000;
+    }
+</style>
+<body bgcolor="#54640B" style="font-family: 'Comfortaa';">
+    <img style="width: 1500px; height: 250px; object-fit: cover;" src="https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="ayurvedic medicines">
+    <div style="text-align: center ;">
+        <p style="font-size: 40px; font-family: 'Reggae One';font-weight: 700; color: #F1F194;">&#10024 PRAKRUTI &#10024</p>
+    </div>
+    <h1 class='bg'>Appointment Request</h1>
+    <table border=3 align=center bgcolor="#B6CA5A" width="40%">
+        <form action="APPOINTMENT REQUEST.php" method="post">
+            <tr>
+                <th colspan="2" height="50px" bgcolor="#F1F194"style="color:#54640B;">
+                    <font size=5>Enter Details</font>
+                </th>
+            </tr>
+            <tr>
+                <td><label for="email">Enter Email id</label><br></td>
+                <td><input type="text" id="email" name="email" style="border-radius: 10px; width: 90%; background-color:#F1F194;"><br></td>
+            </tr>
+            <tr>
+                <td><label for="pwd">Enter Pincode</label><br></td>
+                <td><input type="number" id="pincode" name="pincode" style="border-radius: 10px; width: 90%; background-color:#F1F194;"><br></td>
+            </tr>
+			<tr>
+			<td><label for="type">Choose your treatment</label><br></td>
+			<td><input type="radio" id="ayush" name="ayush" value="Ayurvedha">Ayurvedha<br>
+			<input type="radio" id="ayush" name="ayush" value="Yoga">Yoga<br>
+			<input type="radio" id="ayush" name="ayush" value"Unani">Unani<br>
+			<input type="radio" id="ayush" name="ayush" value="Siddha">Siddha<br>
+			<input type="radio" id="ayush" name="ayush" value="Homeopathy">Homeopathy
+			</td>
+			</tr>
+			<tr>
+			<td><label for="det">Reason for Appointment</label><br></td>
+			<td><textarea name="reason" required=true rows="10" cols="30"></textarea><br></td>
+			</tr>
+            <tr>
+                <th colspan=2>
+                    <center>
+                        <input type="reset" style="font-family: 'Comfortaa'; border-radius: 10px; padding: 10px; background-color:#F1F194">
+                        <input type="submit" value="Submit" style="font-family: 'Comfortaa'; border-radius: 10px; padding: 10px; background-color:#F1F194">
+                    </center>
+                </th>
+            </tr>
+        </form>
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class='bg'>
+        <pre>DESIGNED BY ABC, XYZ, PQR 
+    
+            <u>ABOUT</u>: Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Totam, eligendi.
+    
+            CONTACT US
+            sample@email.com
+            563475637456
+    
+            Chennai, Tamil Nadu</pre>
+    </div>
+</body>
+
+</html>
